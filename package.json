@@ -2,7 +2,7 @@
   "name": "recipe_finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://richa3216.github.io/react-recipe-finder",
+  
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -21,9 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
+    
   },
   "proxy": "https://api.edamam.com",
   "eslintConfig": {
