@@ -82,7 +82,7 @@ function App() {
     <Container>
       <Header><AppNameComponent><AppIcon src='hamburger.svg'/>Recipe Finder</AppNameComponent>
       <SearchComponent>
-        <SearchIcon src="/search-icon.svg"/>
+      <SearchIcon src="/search-icon.svg"/>
         <SearchInput placeholder="Search Recipe" onChange={onTextChange}/>
       </SearchComponent>
       </Header>
